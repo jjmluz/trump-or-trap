@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Trump or Trap</string>
+
+    <!-- Title screen -->
+    <string name="number_of_posts">Number of posts</string>
+    <string name="start">Start</string>
+    <string name="title_trump">TRUMP</string>
+    <string name="title_or">OR</string>
+    <string name="title_trap">TRAP</string>
+
+    <!-- Post screen -->
+    <string name="author_name">Donald J. Trump</string>
+    <string name="author_handle">\@realDonaldTrump</string>
+    <string name="choice_trap">&lt; TRAP</string>
+    <string name="choice_trump">TRUMP &gt;</string>
+    <string name="verified">Verified</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="right_real">Right! Trump really posted this.</string>
+    <string name="wrong_real">Wrong! Trump really posted this.</string>
+    <string name="right_trap">Right! This post is a trap.</string>
+    <string name="wrong_trap">Wrong! This post is a trap.</string>
+
+    <!-- Game summary -->
+    <string name="summary_label">You guessed right</string>
+    <string name="summary_score">%1$d out of %2$d</string>
+    <string name="play_again">Play Again</string>
+</resources>

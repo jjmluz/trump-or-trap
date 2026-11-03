@@ -1,0 +1,324 @@
+{
+  "failures": [
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.36,
+      "year": 2012,
+      "text": ".@CelebApprentice is coming back and it will be the best season yet. You won't want to miss it!",
+      "created_at": "2012"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.75,
+      "year": 2013,
+      "text": "Think Big: If you are going to be thinking anyway, you might as well think huge.",
+      "created_at": "2013"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.64,
+      "year": 2015,
+      "text": "Love the great people of South Carolina. We are going to win and win big!",
+      "created_at": "2015"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.57,
+      "year": 2015,
+      "text": "Politicians are all talk, no action. I have been saying this for a long time and nobody listened.",
+      "created_at": "2015"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.41,
+      "year": 2015,
+      "text": "People asked me to stop tweeting. Why would I do that when it's the only way to get the truth out?",
+      "created_at": "2015"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.38,
+      "year": 2016,
+      "text": "Hillary doesn't have the strength or the stamina to be President. Take a look at the schedule!",
+      "created_at": "2016"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.46,
+      "year": 2016,
+      "text": "What a great honor to be endorsed by the National Rifle Association. I won't let you down!",
+      "created_at": "2016"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.41,
+      "year": 2017,
+      "text": "Just had a very good call with the Prime Minister of Australia. A tough conversation, but a good one. Great relationship!",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.44,
+      "year": 2017,
+      "text": "Thank you to the great people of Saudi Arabia. Hundreds of billions of dollars invested in the U.S. Jobs, Jobs, Jobs!",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.38,
+      "year": 2017,
+      "text": "A very big day for the American Worker. Companies are pouring back into our Country, and it's only the beginning!",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.53,
+      "year": 2017,
+      "text": "It's very cold here at the White House. Could use a little bit of that good old Global Warming!",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.53,
+      "year": 2017,
+      "text": "In the East, it could be the coldest New Year's Eve on record. Where's the Paris Accord when you need it?",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.35,
+      "year": 2017,
+      "text": "The Democrats want to shut down the Government over Amnesty. They're using our Military as a pawn. Not going to happen!",
+      "created_at": "2017"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.37,
+      "year": 2018,
+      "text": "Mexico is going to pay for the Wall through the new Trade Deal, which is a beautiful thing. Fake News won't say that!",
+      "created_at": "2018"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.35,
+      "year": 2018,
+      "text": "The Mainstream Media does not like to hear that America is now the Number One Energy Producer in the World. Sorry!",
+      "created_at": "2018"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.41,
+      "year": 2018,
+      "text": "I would like to wish a very Happy Birthday to our Great U.S. Marine Corps. 243 years, and getting stronger!",
+      "created_at": "2018"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.8,
+      "year": 2019,
+      "text": "How do you impeach a President who has created the greatest economy in the history of our Country? They can't get over the Election!",
+      "created_at": "2019"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.45,
+      "year": 2020,
+      "text": "John Bolton's book is a compilation of lies and made up stories, all to make me look bad. He wanted to go to War with everyone!",
+      "created_at": "2020"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.57,
+      "year": 2023,
+      "text": "Happy New Year to all, including the Radical Left Lunatics, who'll be doing everything possible to destroy our Country, but they will FAIL, and in 2024, WE WILL MAKE AMERICA GREAT AGAIN!",
+      "created_at": "2023"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.36,
+      "year": 2024,
+      "text": "I just WON Iowa by the largest margin in the history of the Iowa Caucus. Thank you to all of the Great Patriots who came out in the freezing cold. Nobody has ever seen anything like it!",
+      "created_at": "2024"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.38,
+      "year": 2025,
+      "text": "Stephen Colbert was just Fired from CBS. His talent was even less than his Ratings. I hear Jimmy Kimmel is Next. He's got less talent than Colbert. Thank you to the Great Paramount!",
+      "created_at": "2025"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.4,
+      "year": 2025,
+      "text": "I AM HEREBY DECLARING NEW YORK CITY'S SUBWAY TO BE A DISGRACE. THE GOVERNOR SHOULD KILL CONGESTION PRICING. CONGESTION PRICING IS DEAD. MANHATTAN, AND ALL OF NEW YORK, IS SAVED. LONG LIVE THE KING!",
+      "created_at": "2025"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.59,
+      "year": 2025,
+      "text": "Everybody loves my Tariff Dividend, which will soon be coming to You. No Tax on Tips. No Tax on Overtime. No Tax on Social Security. Thank you for your attention to this matter!",
+      "created_at": "2025"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.36,
+      "year": 2025,
+      "text": "SLEEPY JOE'S ECONOMY WAS A DISASTER. WHEN I TOOK OVER, WE WERE A DEAD COUNTRY. NOW WE ARE THE HOTTEST COUNTRY ANYWHERE IN THE WORLD. THE STOCK MARKET AGREES. SO DO I!!!",
+      "created_at": "2025"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.38,
+      "year": 2026,
+      "text": "THE SAVE AMERICA ACT MUST PASS. IT IS THE MOST IMPORTANT THING. REPUBLICAN SENATORS, DO YOUR JOB, AND DO IT NOW. PRESIDENT DONALD J. TRUMP",
+      "created_at": "2026"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.5,
+      "year": 2026,
+      "text": "NO TAX ON TIPS, NO TAX ON OVERTIME, NO TAX ON SOCIAL SECURITY, AND DRUG PRICES WAY DOWN. YOU'RE WELCOME. GO OUT AND THANK A REPUBLICAN!",
+      "created_at": "2026"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.43,
+      "year": 2026,
+      "text": "I've ordered that Big Institutional Investors be banned from buying Single Family Homes. Homes are for People, not Corporations. Thank you for your attention to this matter!",
+      "created_at": "2026"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.41,
+      "year": 2026,
+      "text": "THEY SAID THE WAR WOULD LAST YEARS. WE DID IT IN WEEKS. OUR MILITARY IS THE GREATEST IN THE HISTORY OF THE WORLD. THANK YOU FOR YOUR ATTENTION TO THIS MATTER!",
+      "created_at": "2026"
+    },
+    {
+      "reason": "matches_real_post",
+      "overlap": 0.93,
+      "year": 2020,
+      "text": "The Lamestream Media is the dominant force in trying to get me to keep our Country closed as long as possible in the hope that it will be detrimental to my Election Success. The real People want to get back to Work ASAP. We will be doing that soon!",
+      "created_at": "2020"
+    }
+  ],
+  "eras": {
+    "2009-2014": {
+      "quota": 75,
+      "real": {
+        "count": 75,
+        "median_chars": 98,
+        "pct_ends_exclamation": 29,
+        "pct_caps_heavy": 0,
+        "pct_quotes": 1,
+        "pct_ampersand": 7,
+        "pct_mentions": 16,
+        "pct_hashtags": 1
+      },
+      "fake": {
+        "count": 75,
+        "median_chars": 98,
+        "pct_ends_exclamation": 27,
+        "pct_caps_heavy": 0,
+        "pct_quotes": 1,
+        "pct_ampersand": 11,
+        "pct_mentions": 12,
+        "pct_hashtags": 1
+      }
+    },
+    "2015-2016": {
+      "quota": 225,
+      "real": {
+        "count": 225,
+        "median_chars": 101,
+        "pct_ends_exclamation": 56,
+        "pct_caps_heavy": 0,
+        "pct_quotes": 1,
+        "pct_ampersand": 4,
+        "pct_mentions": 28,
+        "pct_hashtags": 11
+      },
+      "fake": {
+        "count": 225,
+        "median_chars": 100,
+        "pct_ends_exclamation": 56,
+        "pct_caps_heavy": 0,
+        "pct_quotes": 3,
+        "pct_ampersand": 12,
+        "pct_mentions": 16,
+        "pct_hashtags": 6
+      }
+    },
+    "2017-2021": {
+      "quota": 525,
+      "real": {
+        "count": 525,
+        "median_chars": 127,
+        "pct_ends_exclamation": 79,
+        "pct_caps_heavy": 2,
+        "pct_quotes": 8,
+        "pct_ampersand": 4,
+        "pct_mentions": 7,
+        "pct_hashtags": 3
+      },
+      "fake": {
+        "count": 525,
+        "median_chars": 127,
+        "pct_ends_exclamation": 79,
+        "pct_caps_heavy": 2,
+        "pct_quotes": 8,
+        "pct_ampersand": 9,
+        "pct_mentions": 7,
+        "pct_hashtags": 0
+      }
+    },
+    "2022-2023": {
+      "quota": 225,
+      "real": {
+        "count": 211,
+        "median_chars": 204,
+        "pct_ends_exclamation": 82,
+        "pct_caps_heavy": 16,
+        "pct_quotes": 19,
+        "pct_ampersand": 13,
+        "pct_mentions": 0,
+        "pct_hashtags": 1
+      },
+      "fake": {
+        "count": 211,
+        "median_chars": 214,
+        "pct_ends_exclamation": 82,
+        "pct_caps_heavy": 16,
+        "pct_quotes": 19,
+        "pct_ampersand": 13,
+        "pct_mentions": 0,
+        "pct_hashtags": 0
+      }
+    },
+    "2024-2026": {
+      "quota": 450,
+      "real": {
+        "count": 439,
+        "median_chars": 160,
+        "pct_ends_exclamation": 64,
+        "pct_caps_heavy": 17,
+        "pct_quotes": 17,
+        "pct_ampersand": 3,
+        "pct_mentions": 0,
+        "pct_hashtags": 0
+      },
+      "fake": {
+        "count": 439,
+        "median_chars": 167,
+        "pct_ends_exclamation": 64,
+        "pct_caps_heavy": 17,
+        "pct_quotes": 9,
+        "pct_ampersand": 5,
+        "pct_mentions": 0,
+        "pct_hashtags": 0
+      }
+    }
+  }
+}

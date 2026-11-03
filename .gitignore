@@ -1,0 +1,20 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.DS_Store
+
+# Downloaded sources; scripts/build_real_posts.py fetches them again.
+data/raw/
+# Full filtered archive; build_real_posts.py writes it again from data/raw/.
+data/out/real_candidates.json
+
+*.apk
+*.aab
+
+# Agent instructions stay local.
+AGENTS.md
+CLAUDE.md

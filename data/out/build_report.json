@@ -1,0 +1,54 @@
+{
+  "source_posts": {
+    "twitter": 56571,
+    "truth_social": 37745
+  },
+  "rejected": {
+    "link": 22176,
+    "repost": 15623,
+    "quoting_someone_else": 12360,
+    "flagged": 250,
+    "too_short": 1024,
+    "reply": 2596,
+    "media": 6138,
+    "empty": 7633
+  },
+  "exact_duplicates_removed": 494,
+  "candidates": {
+    "twitter": 17936,
+    "truth_social": 8086
+  },
+  "deck_rejected": {
+    "routine": 1844,
+    "low_engagement": 7855,
+    "thread_fragment": 2674,
+    "needs_context": 975,
+    "deleted": 225,
+    "too_long_for_tv": 2630,
+    "near_duplicate": 1
+  },
+  "deck_size": 1500,
+  "deck_by_source": {
+    "twitter": 825,
+    "truth_social": 675
+  },
+  "deck_by_era": {
+    "2009-2014": 75,
+    "2015-2016": 225,
+    "2017-2021": 525,
+    "2022-2023": 225,
+    "2024-2026": 450
+  },
+  "deck_quota": {
+    "2009-2014": 75,
+    "2015-2016": 225,
+    "2017-2021": 525,
+    "2022-2023": 225,
+    "2024-2026": 450
+  },
+  "deck_length_chars": {
+    "min": 40,
+    "median": 177.0,
+    "max": 500
+  }
+}
