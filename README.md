@@ -1,6 +1,6 @@
 # Trump or Trap
 
-**Did he really post that?** A guessing game for Android TV and Google TV. A Donald Trump post
+**Did he really post that?** A guessing game for Android TV. A Donald Trump post
 appears on screen and you have one press of the remote to decide: did he actually post it, or
 is it a trap written to sound just like him?
 
@@ -36,10 +36,6 @@ There are 2,950 posts, half real and half fake:
 - **Fake posts** were written for this game to match his style and topics from each period.
   Real and fake posts are matched for length and punctuation, so you can only tell them apart
   by what they say.
-
-> **About the fake posts.** Half the deck is made up: the posts in `data/fakes/` and the cards
-> labelled `"fake"` in `data/out/` were written for this game to imitate his style. Donald J.
-> Trump never posted them. Please don't share them, or screenshots of them, as real.
 
 ## Install it on your TV
 
