@@ -10,22 +10,22 @@
     "flagged": 250,
     "too_short": 1024,
     "reply": 2596,
+    "lost_line_break": 94,
     "media": 6138,
     "empty": 7633
   },
   "exact_duplicates_removed": 494,
   "candidates": {
-    "twitter": 17936,
-    "truth_social": 8086
+    "twitter": 17892,
+    "truth_social": 8036
   },
   "deck_rejected": {
-    "routine": 1844,
-    "low_engagement": 7855,
-    "thread_fragment": 2674,
-    "needs_context": 975,
+    "routine": 1838,
+    "low_engagement": 7828,
+    "thread_fragment": 2663,
+    "needs_context": 974,
     "deleted": 225,
-    "too_long_for_tv": 2630,
-    "near_duplicate": 1
+    "too_long_for_tv": 2614
   },
   "deck_size": 1500,
   "deck_by_source": {
@@ -47,8 +47,8 @@
     "2024-2026": 450
   },
   "deck_length_chars": {
-    "min": 40,
-    "median": 177.0,
+    "min": 38,
+    "median": 177.5,
     "max": 500
   }
 }

@@ -54,6 +54,20 @@ ROUTINE_RE = re.compile(
     r"via @|on @\w+ at \d|at \d{1,2}(:\d\d)?\s?[ap]\.?m\b)",
     re.I,
 )
+# Both archives dropped most line breaks without leaving a space ("Samoa.Jared",
+# "TRUMPPRESIDENT", "seasonHence"). These put the space back where the join is unambiguous.
+LOST_BREAKS = [
+    # "Samoa.Jared", "TIME!!!Will"; not "U.S.A.", "Ph.D", "....The" or domain names
+    (re.compile(r"(?<=[A-Za-z]{2})(?<!\bPh)(\.|[!?]+)(?=[A-Z])(?!(?i:com|org|net|gov|tv)\b)"), r"\1 "),
+    (re.compile(r"(?<=[A-Za-z]):(?=\d)"), ": "),  # "defenses:1. This"
+    (re.compile(r"\b(DONALD J\. TRUMP|DJT)(?=[A-Z])"), r"\1 "),  # "TRUMPPRESIDENT"
+    # "seasonHence"; not his "unAmerican", names like "diGenova" or @handles and #hashtags
+    (re.compile(r"(?<![\w@#'’])((?!un|[dl][aeiu]|ma?c)[a-z]{2,})(?=[A-Z][a-z])"), r"\1 "),
+]
+# Joins that can't be split safely: a number run into a word ("2018: 0Source") or a list
+# number run into the line before ("Manipulation2. VATs").
+UNREPAIRABLE_BREAK_RE = re.compile(r"(?<![\w@#])(?:\d+[A-Z][a-z]|[A-Za-z]+\d+\.(?:\s|$))")
+CAMEL_RE = re.compile(r"(?<![\w@#'’])[A-Z][a-z]+(?:[A-Z][a-z]+)+\b")
 
 
 def download(url, path, refresh):
@@ -69,9 +83,21 @@ def clean_text(raw):
     text = re.sub(r"<br\s*/?>|</p>", "\n", raw or "", flags=re.I)
     text = re.sub(r"<[^>]+>", "", text)
     text = html.unescape(text).replace(" ", " ").replace("￼", "")
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n{2,}", "\n", text)
+    # Fake posts are one line, so real ones are too.
+    text = re.sub(r"\s+", " ", text)
+    for pattern, replacement in LOST_BREAKS:
+        text = pattern.sub(replacement, text)
     return text.strip()
+
+
+def rare_camel_words(posts):
+    """CamelCase words used in only one post of the whole archive.
+
+    His own (ObamaCare, FoxNews, DeSanctimonious) recur; a one-off like "PolinSagui" is
+    usually two lines of a list run together.
+    """
+    counts = collections.Counter(word for post in posts for word in set(CAMEL_RE.findall(post["text"])))
+    return {word for word, count in counts.items() if count == 1}
 
 
 def load_tweets(path):
@@ -113,7 +139,7 @@ def load_truths(path):
     return posts
 
 
-def reject_reason(post):
+def reject_reason(post, rare_words):
     text = post["text"]
     if not text:
         return "empty"
@@ -131,6 +157,8 @@ def reject_reason(post):
         return "quoting_someone_else"
     if len(text.split()) < MIN_WORDS:
         return "too_short"
+    if UNREPAIRABLE_BREAK_RE.search(text) or any(w in rare_words for w in CAMEL_RE.findall(text)):
+        return "lost_line_break"
     return None
 
 
@@ -236,10 +264,11 @@ def main():
     download(TRUTH_URL, truths_path, args.refresh)
 
     posts = load_tweets(tweets_path) + load_truths(truths_path)
+    rare_words = rare_camel_words(posts)
     rejected = collections.Counter()
     kept = []
     for post in posts:
-        reason = reject_reason(post)
+        reason = reject_reason(post, rare_words)
         if reason:
             rejected[reason] += 1
         else:
